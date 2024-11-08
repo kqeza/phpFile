@@ -1,0 +1,13 @@
+{
+    "name": "prince/phpfile",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Prince\\Phpfile\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*",
+        "phpstan/phpstan": "^1.12"
+    }
+}
